@@ -14,7 +14,9 @@ $(document).ready(function(){
 			$("#usernamechecker").text("Username can't be empty");
 
 		}
+		
 		else{
+		
 			$("#usernamechecker").text("Username Ok");			
 		}
 
@@ -53,6 +55,7 @@ $(document).ready(function(){
 
 			$("#username").val("");
 			$("#password").val("");	
+			$("#usernamechecker").text("");			
 			$("#passwordchecker").text("");			
 
 	});

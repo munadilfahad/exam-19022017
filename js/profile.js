@@ -11,12 +11,12 @@ $( "#datepicker" ).datepicker();
 
 	 $("#text").keyup(function(){
 	 	
-	 var text=$("#text").val();
-	 var textlength=text.length;
+		 var text=$("#text").val();
+		 var textlength=text.length;
 
-	 var remchar=50-textlength;
+		 var remchar=50-textlength;
 
-	 $("#textcount").text(remchar);
+		 $("#textcount").text(remchar);
 	 	
 	 });
 
