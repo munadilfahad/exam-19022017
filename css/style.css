@@ -1,1 +1,80 @@
+body{
+	margin: 0;
+	padding: 0;
+}
 
+.form{
+
+	background-color: #EEEEEE;
+	width: 40%;
+	margin: 10px 20px;
+	padding: 10px 40px;
+
+}
+
+.form input{
+	width: 100%;
+	margin: 10px 10px;
+}
+
+.form button{
+	margin: 10px 10px;
+}
+
+/*Profile Page Style*/
+
+.profile{
+
+	background-color: #EEEEEE;
+	width: 40%;
+	margin: 10px 20px;
+	padding: 10px 40px;
+
+}
+
+.profile input{
+	width: 100%;
+	margin: 10px 10px;
+}
+
+.profile button{
+	margin: 10px 10px;
+}
+
+#gallery {
+	width: 80%;
+	height: 20%;
+	margin: 0 auto;
+}
+
+#gallery img{
+	width: 100%;
+	height: 100%;
+}
+
+#area{
+	width: 100%;
+
+}
+
+#area textarea{
+	width: 100%;
+	margin: 20px auto;
+}
+
+.bgcolor{
+
+	background-color: green;
+}
+
+.box{
+	background-color: green;
+	height: 300px;
+	width: 100%;
+}
+
+
+.parallax-window {
+    min-height: 400px;
+    background: transparent;
+}
