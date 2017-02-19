@@ -21,6 +21,10 @@ body{
 	margin: 10px 10px;
 }
 
+#usernamechecker,#passwordchecker{
+	color: red;
+}
+
 /*Profile Page Style*/
 
 .profile{
@@ -77,4 +81,8 @@ body{
 .parallax-window {
     min-height: 400px;
     background: transparent;
+}
+
+.parallax-mirror {
+    z-index:1
 }
