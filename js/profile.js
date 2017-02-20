@@ -21,9 +21,19 @@ $('.owl-carousel').owlCarousel({
 
 $( "#datepicker" ).datepicker();
 
+var color=0;
 	$("#bgchange").click(function(){
 
-		$("#profile").addClass("bgcolor");
+		if(color==0){
+			$("#profile").addClass("bgcolor");
+			color=1;
+			}
+		else{
+			$("#profile").removeClass("bgcolor");
+			color=0;
+		}
+
+
 	});
 
 	 $( "#tabs" ).tabs();
