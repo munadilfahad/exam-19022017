@@ -85,3 +85,7 @@ body{
     background: transparent;
 }
 
+.parallax-mirror {
+    z-index:1
+}
+
